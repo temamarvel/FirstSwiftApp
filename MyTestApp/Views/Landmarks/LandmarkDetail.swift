@@ -8,10 +8,14 @@
 import SwiftUI
 
 struct LandmarkDetail: View {
+    @EnvironmentObject var modelData: ModelData
     var landmark: Landmark
-    
     let imagePadding: CGFloat = -130
     let mapHeight: CGFloat = 300
+    
+    var landmarkIndex: Int {
+        modelData.landmarks.firstIndex(where: { $0.id == landmark.id })!
+    }
     
     var body: some View {
         VStack{
@@ -20,7 +24,10 @@ struct LandmarkDetail: View {
             CircleImage(image: landmark.image).offset(y: imagePadding).padding(.bottom, imagePadding)
             
             VStack(alignment: .leading) {
-                Text(landmark.name).font(.title)
+                HStack {
+                    Text(landmark.name).font(.title)
+                    FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
+                }
                 HStack {
                     Text(landmark.park)
                     Spacer()

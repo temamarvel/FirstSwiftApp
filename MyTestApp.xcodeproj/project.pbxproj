@@ -19,6 +19,7 @@
 		3B4DFF0E282065A50091490A /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DFF0D282065A50091490A /* LandmarkRow.swift */; };
 		3B4DFF10282067FD0091490A /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DFF0F282067FD0091490A /* LandmarkList.swift */; };
 		3B5FA62C2822EC7C003609D3 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5FA62B2822EC7C003609D3 /* LandmarkDetail.swift */; };
+		3BAE92E8282ACF9D00245300 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAE92E7282ACF9D00245300 /* FavoriteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		3B4DFF0D282065A50091490A /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkRow.swift; path = MyTestApp/Views/Landmarks/LandmarkRow.swift; sourceTree = SOURCE_ROOT; };
 		3B4DFF0F282067FD0091490A /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkList.swift; path = MyTestApp/Views/Landmarks/LandmarkList.swift; sourceTree = SOURCE_ROOT; };
 		3B5FA62B2822EC7C003609D3 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		3BAE92E7282ACF9D00245300 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		3BAE92E62825A79600245300 /* Elements */ = {
 			isa = PBXGroup;
 			children = (
+				3BAE92E7282ACF9D00245300 /* FavoriteButton.swift */,
 				3B4DFEFD282050200091490A /* CircleImage.swift */,
 				3B4DFEFF282051630091490A /* MapView.swift */,
 			);
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B28C250281B16D400E65749 /* ContentView.swift in Sources */,
+				3BAE92E8282ACF9D00245300 /* FavoriteButton.swift in Sources */,
 				3B4DFF00282051630091490A /* MapView.swift in Sources */,
 				3B28C24E281B16D400E65749 /* MyTestAppApp.swift in Sources */,
 				3B4DFF10282067FD0091490A /* LandmarkList.swift in Sources */,
