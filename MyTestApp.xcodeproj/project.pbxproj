@@ -22,6 +22,9 @@
 		3BAE92E8282ACF9D00245300 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAE92E7282ACF9D00245300 /* FavoriteButton.swift */; };
 		3BAE92EA282ADC1400245300 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAE92E9282ADC1400245300 /* HexagonParameters.swift */; };
 		3BAE92EC282ADDEF00245300 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAE92EB282ADDEF00245300 /* BadgeBackground.swift */; };
+		3BAE92EE282C2ACD00245300 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAE92ED282C2ACC00245300 /* BadgeSymbol.swift */; };
+		3BAE92F0282C2C4500245300 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAE92EF282C2C4500245300 /* RotatedBadgeSymbol.swift */; };
+		3BAE92F2282C2CB500245300 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAE92F1282C2CB500245300 /* Badge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +44,9 @@
 		3BAE92E7282ACF9D00245300 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		3BAE92E9282ADC1400245300 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		3BAE92EB282ADDEF00245300 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		3BAE92ED282C2ACC00245300 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		3BAE92EF282C2C4500245300 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		3BAE92F1282C2CB500245300 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,11 +79,10 @@
 		3B28C24C281B16D400E65749 /* MyTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				3BAE92E9282ADC1400245300 /* HexagonParameters.swift */,
-				3BAE92EB282ADDEF00245300 /* BadgeBackground.swift */,
 				3B28C24D281B16D400E65749 /* MyTestAppApp.swift */,
 				3B4DFF0B282064C80091490A /* Views */,
 				3B28C251281B16D500E65749 /* Assets.xcassets */,
+				3BAE92F3282C2CC100245300 /* Badge */,
 				3B4DFF0C282064D60091490A /* Resourse */,
 				3B4DFF0A2820648A0091490A /* Model */,
 				3B28C253281B16D500E65749 /* Preview Content */,
@@ -138,6 +143,18 @@
 				3B4DFEFF282051630091490A /* MapView.swift */,
 			);
 			path = Elements;
+			sourceTree = "<group>";
+		};
+		3BAE92F3282C2CC100245300 /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				3BAE92EB282ADDEF00245300 /* BadgeBackground.swift */,
+				3BAE92E9282ADC1400245300 /* HexagonParameters.swift */,
+				3BAE92ED282C2ACC00245300 /* BadgeSymbol.swift */,
+				3BAE92EF282C2C4500245300 /* RotatedBadgeSymbol.swift */,
+				3BAE92F1282C2CB500245300 /* Badge.swift */,
+			);
+			path = Badge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,10 +229,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B28C250281B16D400E65749 /* ContentView.swift in Sources */,
+				3BAE92F2282C2CB500245300 /* Badge.swift in Sources */,
 				3BAE92E8282ACF9D00245300 /* FavoriteButton.swift in Sources */,
 				3B4DFF00282051630091490A /* MapView.swift in Sources */,
 				3B28C24E281B16D400E65749 /* MyTestAppApp.swift in Sources */,
 				3BAE92EA282ADC1400245300 /* HexagonParameters.swift in Sources */,
+				3BAE92F0282C2C4500245300 /* RotatedBadgeSymbol.swift in Sources */,
+				3BAE92EE282C2ACD00245300 /* BadgeSymbol.swift in Sources */,
 				3B4DFF10282067FD0091490A /* LandmarkList.swift in Sources */,
 				3B5FA62C2822EC7C003609D3 /* LandmarkDetail.swift in Sources */,
 				3BAE92EC282ADDEF00245300 /* BadgeBackground.swift in Sources */,
